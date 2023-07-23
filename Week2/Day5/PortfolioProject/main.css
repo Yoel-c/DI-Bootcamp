@@ -1,0 +1,27 @@
+h1{
+padding-top: 150px;
+padding-left: 100px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+#imageprofil{
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+border-radius: 70px;
+
+}
+
+.vertical-line{
+    border-left: 2px solid #000;
+    display: inline-flex;
+    height: 250px;
+    margin:  20px;
+  }
+
+  body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
