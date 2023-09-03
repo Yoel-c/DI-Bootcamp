@@ -11,8 +11,8 @@ const inventory = [
   function getCarHonda(carInventory){
     const firtsHonda = carInventory.find(car => car.car_make == "Honda");
     console.log(firtsHonda);
-    //const stingSentence =  'This is a' ${firtsHonda.car_make}, ${firtsHonda.car_model}, 'of' ${firtsHonda.car_year} ;
-    //console.log(stingSentence);
+   const stingSentence =  `This is a ${firtsHonda.car_make}, ${firtsHonda.car_model}, of ${firtsHonda.car_year}` ;
+    console.log(stingSentence);
 
   }
 
@@ -27,4 +27,4 @@ const inventory = [
 
   }
 
-sortCarInventoryByYear(inventory)
+//sortCarInventoryByYear(inventory)
