@@ -21,3 +21,13 @@ function displayStudentInfo(objUser){
 }
 
 displayStudentInfo({first: 'Elie', last:'Schoppik'});
+
+const users = { user1: 18273, user2: 92833, user3: 90315 }
+console.log(users);
+
+const usersArr = Object.keys(users).map(key => {
+    return {key: key , value: users.value}
+ });
+console.log(usersArr);
+
+
